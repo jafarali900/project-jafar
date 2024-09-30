@@ -1,0 +1,59 @@
+# Student Registration Form Created By Jafar Ali
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="jafar.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registration Form</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="acces_key" value="9b3bc83e-f61d-40ea-a36e-b6db80ea5ff6">
+            <label for="firstName">Full Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Fathers's Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+
+            <p class="gender">Select Your Gender:</p>
+        
+        
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Male"> 
+        <label for="Male">Female</label>
+        <input type="radio" name="Gender" id="Female"> 
+        <label for="Male">Other</label>
+        <input type="radio" name="Gender" id="Other"> 
+    </div>
+    
+    
+
+
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="computer-science">Computer Science</option>
+                <option value="business">Mechanical Engg.</option>
+                <option value="engineering">Civil Engg.</option>
+                <option value="arts">Electrical Engg.</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
